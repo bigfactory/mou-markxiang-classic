@@ -8,5 +8,7 @@ Download the MarkXiang.css
 
 Put the css file into ~/Library/Application Support/Mou/CSS
 
+![Mou icon](./screenshot/preferences.png)
+
 [Mou]: http://25.io/mou/
 [http://maxiang.info]: [http://maxiang.info]
