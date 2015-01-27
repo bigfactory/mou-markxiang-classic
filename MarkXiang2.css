@@ -1,0 +1,160 @@
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;
+    font-size: 0.85em;
+    line-height: 160%;
+    color: #000;
+    background-color: white;
+    margin: 0 auto;
+    width: 854px;
+}
+
+@media screen and (max-width: 880px) {
+    body {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    body {
+        width: 400px;
+    }
+}
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; 
+}
+
+ul ul{
+    margin: 0 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+td,th {	
+    border: 1px solid #ddd;
+    padding: 3px 10px;
+}
+th {
+    padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 110%;
+}
+h1 {
+    margin-bottom: 22px;
+    font-size: 36px;
+}
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+h5 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h6 {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+hr {
+    margin: 20px 0  20px;
+    line-height: 22px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 5px 20px;
+    border-left-width: 10px;
+    border-left: 5px solid rgba(102,128,153,0.075);
+    background-color: rgba(102,128,153,0.05);
+}
+blockquote:before {
+    content:"";
+}
+blockquote p {
+    font-weight: 300;
+    line-height: 18px;
+}
+pre ,code {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #f9f2f4;
+    color: #c7254e;
+    padding: 0px 5px;
+    margin: 0 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    line-height: 16px;
+    font-size: 0.75em;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    color:#737373;
+    font-size: 0.75em;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+li{
+    line-height: 160%;
+    margin: 0;
+}
+/** {
+	-webkit-print-color-adjust: exact;
+}*/
+/*@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}*/
